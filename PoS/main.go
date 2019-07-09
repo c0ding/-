@@ -102,5 +102,5 @@ func main() {
 		fmt.Println("新的区块信息", block)
 	}
 
-	// 拥有tokens数量越多，获得记账权利的概率越大
+	//PoS的特点： 拥有tokens数量越多，获得记账权利的概率越大
 }
