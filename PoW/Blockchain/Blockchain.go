@@ -15,7 +15,6 @@ type Node struct {
 
 func GenerateHeaderNode(data *Block.Block) *Node {
 	headerNode := new(Node)
-
 	headerNode.NextNode = nil
 	headerNode.Data = data
 	return headerNode
@@ -30,7 +29,6 @@ func AddNode(data *Block.Block, preNode *Node) *Node {
 }
 
 func ShowNodes(node *Node) {
-
 	n := node
 	for {
 		if n.NextNode == nil {

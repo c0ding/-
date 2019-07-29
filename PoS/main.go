@@ -58,8 +58,8 @@ func initNodes() {
 
 	}
 
-	fmt.Print("节点【tokens，Days，Address】:\n")
-	fmt.Println("%v \n", nodes)
+	//fmt.Print("节点【tokens，Days，Address】:\n")
+	//fmt.Println("%v \n", nodes)
 	for i, node := range nodes {
 		fmt.Println(i, node)
 	}
